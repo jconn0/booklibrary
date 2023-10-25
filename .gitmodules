@@ -1,0 +1,3 @@
+[submodule "gutenapi/gutendex"]
+	path = gutenapi/gutendex
+	url = git@github.com:jconn0/gutendex.git
