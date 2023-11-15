@@ -1,7 +1,7 @@
-# BOOKMARSHALL
+# booklibrary
 
 A free/public domain ebook and audiobook aggregator.
 
 ## Website
 
-May be accessed at bookmarshall.com
+May be accessed at...
