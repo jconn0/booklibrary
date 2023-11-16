@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './SortingSelector.css'
 const SortingSelector = ({ selectedSorting, onSortingChange }) => {
   useEffect(() => {
-    // Use the onSortingChange callback to update the sorting method
     onSortingChange(selectedSorting);
   }, [selectedSorting, onSortingChange]);
 
