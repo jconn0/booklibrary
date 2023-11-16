@@ -5,7 +5,7 @@
 }
 .filters ul {
   padding-left: 0;
-  list-style: none; /* Remove bullet points */
+  list-style: none;
 }
 
 .filters label {
@@ -14,8 +14,8 @@
 }
 
 .filters input[type="checkbox"] {
-  transform: scale(1); /* Adjust the scale factor as needed */
-  margin-right: 5px; /* Optional: Add some right margin for spacing */
+  transform: scale(1);
+  margin-right: 5px;
   accent-color: #7BA597;
 }
 
