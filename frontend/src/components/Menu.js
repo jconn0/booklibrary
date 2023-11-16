@@ -17,10 +17,8 @@ const Menu = () => {
       </div>
       {menuOpen && (
         <div className="menu-content">
-          {/* Add your menu items or components here */}
-          <p>Menu Item 1</p>
-          <p>Menu Item 2</p>
-          <p>Menu Item 3</p>
+          <p>About</p>
+          <p>Help</p>
         </div>
       )}
     </div>
