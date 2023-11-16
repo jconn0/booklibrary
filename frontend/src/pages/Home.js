@@ -11,13 +11,11 @@ const Home = () => {
 
 	const handleSearchSubmit = async (query) => {
     try {
-      // Make an API call using fetch
 			const encodedQuery = encodeURIComponent(query);
 			
 			console.log(encodedQuery);
 
 
-      // Parse the JSON response
 			navigate(`/results?query=${encodedQuery}`);
     } catch (error) {
       console.error('Error fetching search results:', error.message);
