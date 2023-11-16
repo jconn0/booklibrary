@@ -1,0 +1,22 @@
+nav {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+  background-color: #7BA597;
+  height: 9vh;
+  width: 100vw;
+  position: fixed;
+  border-bottom: 4px solid #EEF0F2;
+  z-index: 1;
+}
+
+nav h1{
+  color: #EEF0F2;
+  font-size: 3vw;
+  margin-left: 1vw;
+}
+
+nav .searchbar {
+  margin-left: auto;
+}
+

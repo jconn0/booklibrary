@@ -1,0 +1,97 @@
+.background {
+  width: 100vw;
+  height: 165vh;
+  background-color: #7BA597;
+  display: flex; 
+  justify-content: center;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.filters {
+  margin-top: 4vh;
+}
+
+
+.results {
+  background-color: #cfe6df;
+  width: 85vw;
+  height: 154vh;
+  border: 2px solid #EEF0F2;
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+  /* border: 1px solid red; */
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  
+  /* border: 1px solid red; */
+  /* background-color: green; */
+}
+
+.items {
+  padding-left: 1%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.items .card {
+  margin: 0 1%;
+  flex-basis: 17%;
+}
+
+.books {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  /* border: 1px solid green; */
+}
+
+.item {
+  width: 4.5vw;
+  height: 250px;
+  background-color: #EEF0F2;
+}
+
+.filter-checkbox:checked + label::before {
+  content: '\2713';
+  color: #007bff;
+  font-weight: bold;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.pages {
+  height: 25px;
+  margin: 0 auto;
+  margin-top: -7%;
+}
+
+.pages span {
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #EEF0F2;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.pages span.active {
+  background-color: #7BA597;
+  color: #fff;
+}
+

@@ -1,0 +1,51 @@
+.filters {
+  width: 20vw;
+  padding: 15px;
+  border-right: 2px solid #EEF0F2;
+}
+.filters ul {
+  padding-left: 0;
+  list-style: none; /* Remove bullet points */
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filters input[type="checkbox"] {
+  transform: scale(1); /* Adjust the scale factor as needed */
+  margin-right: 5px; /* Optional: Add some right margin for spacing */
+  accent-color: #7BA597;
+}
+
+.filters button{
+  margin-top: 5px;
+  border-radius: 8px;
+  background-color: #9cc3b6;
+  border: none;
+  padding: 8px;
+}
+
+.filters button:hover{
+  background-color: #7BA597;
+  transition-duration: 0.3s;
+}
+
+.filters button:active{
+  transform: scale(0.99);
+}
+
+.filters .year-input {
+  width: 60px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.filters .year-input:focus {
+  outline: none;
+}
+
+.filters .years {
+  display: flex;
+}

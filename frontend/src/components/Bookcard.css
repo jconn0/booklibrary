@@ -1,0 +1,39 @@
+.card {
+  height: 35vh;
+  max-width: 13vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-start;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card .title {
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 12vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+
+.card .authors {
+  margin-top: -45px;
+  font-weight: 400;
+  max-width: 12vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card img
+{
+  display: block;
+  margin: 0;
+  height: 75%;
+}
