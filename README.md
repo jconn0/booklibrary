@@ -1,4 +1,4 @@
-# book library something
+# book library
 
 A free/public domain ebook and audiobook aggregator.
 
