@@ -8,7 +8,7 @@ import FilterComponent from '../components/Filters';
 import SortingSelector from '../components/SortingSelector';
 import Menu from '../components/Menu';
 
-const ITEMS_PER_PAGE = 20; // Set the number of items per page
+const ITEMS_PER_PAGE = 20;
 
 const SearchResultsPage = () => {
   const location = useLocation();
