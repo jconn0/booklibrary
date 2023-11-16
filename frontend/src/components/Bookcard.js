@@ -4,7 +4,6 @@ import './Bookcard.css';
 import noimagefound from '../icons/noimagefound.png'
 
 const Bookcard = ({ title, authors, imageURL, link }) => {
-  // Ensure authors is always an array
   const authorsArray = Array.isArray(authors) ? authors : [authors];
 
   return (
